@@ -1,0 +1,36 @@
+{
+    "name": "@isthisgitlab/simple-cli-gurushots-auto-voter",
+    "version": "1.0.0",
+    "description": "Simple node script for auto voting in gurushots.com",
+    "main": "voter.js",
+    "scripts": {
+        "start": "node voter.js",
+        "login": "node login.js",
+        "bump": "npx npm-check-updates -u && npm i"
+    },
+    "author": {
+        "name": "isthisgitlab",
+        "email": "isthisgitlab@isthisgitlab.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.12.2",
+        "dotenv": "^17.2.2",
+        "node-cron": "^4.2.1",
+        "prompt-sync": "^4.2.0"
+    },
+    "keywords": [
+        "gurushots",
+        "gurushots.com",
+        "challenge",
+        "photo",
+        "photography",
+        "photography-challenge",
+        "autovote"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.36.0",
+        "eslint": "^9.36.0",
+        "globals": "^16.4.0"
+    }
+}
