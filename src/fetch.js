@@ -287,7 +287,7 @@ const fetchChallengesAndVote = async () => {
         if (boost.state === 'AVAILABLE' && boost.timeout) {
             console.log(`Boost available for challenge: ${challenge.title}`);
 
-            const boostTimeout = 10 * 60; // 10 minutes
+            const boostTimeout = 15 * 60; // 15 minutes
             const timeUntilDeadline = boost.timeout - now;
 
             if (timeUntilDeadline <= boostTimeout && timeUntilDeadline > 0) {
