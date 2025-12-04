@@ -68,8 +68,8 @@ const commonHeaders = {
     'accept-language': 'fr-SE;q=1.0, en-SE;q=0.9, sv-SE;q=0.8, es-SE;q=0.7',
     'x-api-version': '20',               // API version required by GuruShots
     'x-env': 'IOS',                      // Environment identifier
-    'user-agent': 'GuruShotsIOS/2.41.5 (com.gurushots.app; build:509; iOS 16.7.11) Alamofire/5.10.2',
-    'x-app-version': '2.41.5',           // App version to match
+    'user-agent': 'GuruShotsIOS/2.41.6 (com.gurushots.app; build:510; iOS 16.7.11) Alamofire/5.10.2',
+    'x-app-version': '2.41.6',           // App version to match
     'connection': 'keep-alive',
     'x-brand': 'Apple',
     'x-token': process.env.TOKEN,        // Authentication token from .env
